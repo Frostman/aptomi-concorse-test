@@ -15,7 +15,7 @@ cat >${APTOMI_CLIENT_CONFIG_DIR}/config.yaml <<EOL
 debug: true
 
 api:
-  host: host.docker.internal
+  host: "aptomi-aptomi.aptomi"
   port: 27866
 EOL
 
